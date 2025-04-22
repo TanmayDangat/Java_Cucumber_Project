@@ -265,9 +265,8 @@ public class PracticeAutomationStepClass extends BaseClass {
 //	Place order
 	
 	@Then("user clicks on place order button")
-	public void user_clicks_on_place_order_button()  throws InterruptedException {
+	public void user_clicks_on_place_order_button() {
 	    pageClass.setPlaceOrder();
-	    Thread.sleep(5000);
 	}
 
 	@Then("user is navigated to order details page")
