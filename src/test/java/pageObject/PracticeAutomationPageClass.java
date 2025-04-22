@@ -164,6 +164,9 @@ WebDriver driver;
 	
 	@FindBy(xpath="//header[@class='title']/h3")
 	public WebElement finalBillingDetails_xpath;
+	
+	@FindBy(xpath="//div[@id='n2-ss-6-arrow-next']")
+	public WebElement sliderImg_xpath;
 
 	
 //	Actions

@@ -7,6 +7,7 @@ Feature: Sliders
     Then clicks on shop menu
     Then click on home menu
     Then tests whether home page has three sliders only
+    Then click on the slider
     Then user close the browser
 
 	

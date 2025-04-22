@@ -44,6 +44,17 @@ public class PracticeAutomationStepClass extends BaseClass {
 	    int slidersLength = pageClass.setSlider();
 	    Assert.assertEquals(slidersLength, 3);
 	}
+	
+	@Then("click on the slider")
+	public void click_on_the_slider() throws InterruptedException {
+	    int slidersLength = pageClass.setSlider();
+
+		for(int i = 0; i < slidersLength; i++) {
+		    pageClass.sliderImg_xpath.click();
+		    Thread.sleep(10000);
+		}
+		
+	}
 
 	@Then("user close the browser")
 	public void user_clise_the_browser() {
